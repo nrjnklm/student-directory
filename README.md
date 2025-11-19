@@ -24,5 +24,5 @@ This app displays a list of students split into two groups (Active Students and 
 ## How to run locally
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/nrjnklm/student-directory.git
    cd student-directory-2025
