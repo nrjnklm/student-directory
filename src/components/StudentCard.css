@@ -1,0 +1,59 @@
+.student-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-3px);
+}
+
+.student-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-name {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: white;
+}
+
+.status-badge.active {
+  background: #22c55e; /* green */
+}
+
+.status-badge.inactive {
+  background: #6b7280; /* gray */
+}
+
+.skills-section {
+  margin-top: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  gap: 6px;
+}
+
+.skill-badge {
+  background: #e0e7ff;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  color: #4338ca;
+  font-weight: 600;
+}
