@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import StudentCard from './components/studentCard.jsx'
+import StudentCard from './components/StudentCard.jsx'
 import { activeStudents, alumni } from './data/students'
 
 export default function App() {
